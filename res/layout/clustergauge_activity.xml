@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/vehicle_speedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="175dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/ic_mph_gauge" />
+
+    <TextView
+        android:id="@+id/vehicle_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="-----"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/engine_LoadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="175dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/ic_engine_load" />
+
+    <TextView
+        android:id="@+id/engine_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:text="-----"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/mass_air_flowImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="175dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/ic_mass_air_flow" />
+
+    <TextView
+        android:id="@+id/mass_air_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="165dp"
+        android:text="--------"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/engine_coolentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/ic_engine_coolent" />
+
+    <TextView
+        android:id="@+id/engine_coolent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="165dp"
+        android:text="-----"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/throttleImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/ic_throttle" />
+
+    <TextView
+        android:id="@+id/throttle_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="300dp"
+        android:text="-----"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/rpmImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/ic_rpm_gauge" />
+
+    <TextView
+        android:id="@+id/rpm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="30dp"
+        android:text="-----"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/fuel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-55dp"
+        android:text="FUEL LEVEL: 00.0%"
+        android:textSize="30sp" />
+
+</RelativeLayout>

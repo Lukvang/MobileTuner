@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:gravity="center"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/connectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="105dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/connectButtonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		 android:layout_marginTop="20dp"
+        android:src="@drawable/connect_image" />
+
+    <TextView
+        android:id="@+id/gaugetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="105dp"
+        android:text="@string/gauge_button" />
+
+    <ImageView
+        android:id="@+id/gaugeClusterImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/gauges_image" />
+
+    <TextView
+        android:id="@+id/graphText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="245dp"
+        android:text="@string/graph_Button" />
+
+    <ImageView
+        android:id="@+id/graphViewImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/graph_datalog_image" />
+
+    <TextView
+        android:id="@+id/troubleCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginLeft="165dp"
+        android:layout_marginTop="245dp"
+        android:text="@string/troublecodes_button" />
+
+    <ImageView
+        android:id="@+id/troubleCodesImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+         android:layout_marginTop="160dp"
+        android:src="@drawable/diagnostic_image" />
+
+    <TextView
+        android:id="@+id/liveDataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="385dp"
+        android:text="@string/live_Button" />
+
+    <ImageView
+        android:id="@+id/liveDataImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/data_logs_image" />
+
+    <TextView
+        android:id="@+id/settingsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="385dp"
+        android:text="@string/settings_button" />
+
+    <ImageView
+        android:id="@+id/settingsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="301dp"
+        android:src="@drawable/settings_image" />
+
+</RelativeLayout>
